@@ -1,6 +1,6 @@
-# Habana Gaudi-v2 kernel for HashBucket operation
+# Habana Gaudi-v2 kernel for EmbeddingBag operation
 
-This repository provides the TPC kernel for hashbucket operation using Gaudi-v2. This example is implemented based on Habana's custom TPC kernel examples (https://github.com/HabanaAI/Habana_Custom_Kernel/tree/main).
+This repository provides the TPC kernel for custom embeddingbag operation using Gaudi-v2. This example is implemented based on Habana's custom TPC kernel examples (https://github.com/HabanaAI/Habana_Custom_Kernel/tree/main).
 
 ## Install Habanatools For Ubuntu
 To retrieve the package please visit [Habana Vault](https://vault.habana.ai/artifactory/debian/jammy/pool/main/h/habanatools/habanatools_1.18.0-524_amd64.deb), click Artifact, find habanatools and download the latest release package for Ubuntu 22.04. You can find different packages for different OS you used. 
