@@ -34,3 +34,10 @@ then set up the path
 ```  
 export PYTHONPATH=/path_to_the_project_root_directory/pytorch_extension/pytorch_custom_op:$PYTHONPATH
 ``` 
+
+## Test and example
+To test the custom embeddingbag kernel in PyTorch environment, you have to finish the above steps.
+```  
+cd pytorch_extension/pytorch_custom_op
+python hpu_custom_op_embedding_bag_sum.py
+python hpu_custom_op_table_batched_embedding_bag_sum.py
