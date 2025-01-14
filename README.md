@@ -1,11 +1,13 @@
-# Recommendation system (RecSys) operations for Gaudi-v2
+# Microbenchmarks and Recommendation System (RecSys) for Gaudi-v2
 
-This repository provides several recommendation system operations for inference/training using Gaudi-v2.
-Specifically, we plan to provide the following contributions:
+This repository hosts a collection of microbenchmarks and recommendation system operations tailored for Gaudi-v2. Our work focuses on optimizing performance and providing efficient implementations for key operations. Specifically, we aim to deliver the following contributions:
 
-- TPC kernel for (table batched) embeddingbag operation
-- TPC kernel for data preprocessing operation
+- **Microbenchmarks**: Evaluation of compute, memory, and communication primitives on Gaudi-v2.  
+- **TPC Kernel for EmbeddingBag**: Implementation of a table-batched embeddingbag operation optimized for Gaudi-v2.  
+- **TPC Kernel for Data Preprocessing**: Development of a custom kernel for efficient data preprocessing.  
 
--------
+---
 
-Currently, we have implemented embeddingbag operation using Gaudi-v2.
+### Current Status
+
+We have implemented the **embeddingbag operation** for Gaudi-v2 and are actively working on additional kernels and benchmarks. Further updates will be provided as progress continues.
