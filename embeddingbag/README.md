@@ -5,7 +5,7 @@ This repository provides the TPC kernel for custom embeddingbag operation using 
 ## Install Habanatools For Ubuntu
 To retrieve the package please visit [Habana Vault](https://vault.habana.ai/artifactory/debian/jammy/pool/main/h/habanatools/habanatools_1.18.0-524_amd64.deb), click Artifact, find habanatools and download the latest release package for Ubuntu 22.04. You can find different packages for different OS you used. 
 ```  
-  sudo dpkg -i ./habanatools_1.18.0-524_amd64.deb
+sudo dpkg -i ./habanatools_1.18.0-524_amd64.deb
 ```
 
 ## Build
